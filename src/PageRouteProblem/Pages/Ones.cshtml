@@ -1,0 +1,24 @@
+﻿@page "{id?}"
+@model OnesModel
+@{
+    ViewData["Title"] = "Ones";
+    var message = Model.Message;
+}
+
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Ones</h2>
+            <ul>
+                <li> <vc:ones></vc:ones></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h2>One</h2>
+            <ul>
+                <li> <vc:one id="@message"></vc:one></li>
+            </ul>
+        </div>
+
+    </div>
+</div>

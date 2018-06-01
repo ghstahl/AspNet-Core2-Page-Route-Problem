@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageRouteProblem", "PageRouteProblem\PageRouteProblem.csproj", "{950BAB17-BA63-487F-9BBF-22E72A06E6DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950BAB17-BA63-487F-9BBF-22E72A06E6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950BAB17-BA63-487F-9BBF-22E72A06E6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950BAB17-BA63-487F-9BBF-22E72A06E6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950BAB17-BA63-487F-9BBF-22E72A06E6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85A54ECB-7CB2-42E6-9C79-0BE1706835B9}
+	EndGlobalSection
+EndGlobal

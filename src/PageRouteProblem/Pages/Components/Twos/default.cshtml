@@ -1,0 +1,10 @@
+﻿@model ViewComponents.TwosViewComponentModel
+<h4>Hello from Twos</h4>
+<ul>
+    @foreach (var item in Model.Messages)
+    {
+        var url = $"/Twos/{item}";
+        <li><a href="@url">@item</a></li>
+    }
+</ul>
+
