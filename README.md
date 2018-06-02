@@ -6,13 +6,25 @@ Problem: adding the following;
 ```
 to the top of a page causes it to pick up the route of other pages.
 
-When you run this sample click on the following;  
-[https://localhost:44367/Ones/Trigger](https://localhost:44367/Ones/Trigger)
+Produce:
+1. Out-of-the-box asp.net core2.1 WebApplication
+2. Add the following to contacts.cshtml and about.cshtml
+```
+@page "{id?}"
+```
+3. Route to;
+```
+https://localhost:44306/About/hello
+```
+4. Now click on "Contacts" in the NavBar.
 
-Then hover over "Contact" you will notice that the route is;  
-[https://localhost:44367/Contact/Trigger](https://localhost:44367/Contact/Trigger)  
+You will be routed to 
+```
+https://localhost:44306/Contact/hello
+```
 
-Whats up with that?  
+HWhattt?
+
 
 I have tried replacing;
 ```
